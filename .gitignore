@@ -5,3 +5,6 @@
 
 #ignore IDE files, its just courteous!
 .idea
+
+#lets not accidently commit things vagrant maps for local use.
+www
