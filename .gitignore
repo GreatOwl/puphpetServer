@@ -8,3 +8,6 @@
 
 #lets not accidently commit things vagrant maps for local use.
 www
+
+#these will be specific to the computer this is set up on, so lets ignore them.
+config/development.*
