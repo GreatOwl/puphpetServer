@@ -1,4 +1,7 @@
 
 
+#build it for yourself!
+.vagrant
+
 #ignore IDE files, its just courteous!
 .idea
