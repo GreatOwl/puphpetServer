@@ -162,10 +162,10 @@ Vagrant.configure('2') do |config|
         system = development.fetch('system')
         if system.fetch('memory', false)
           memory = system.fetch('memory')
-          vb.customize ["modifyvm", :id, "--memory", memory]
+          virtualbox.customize ["modifyvm", :id, "--memory", memory]
         end
       else
-        vb.customize ["modifyvm", :id, "--memory", "2048"]
+        virtualbox.customize ["modifyvm", :id, "--memory", "2048"]
       end
 
       #virtualbox.customize ['modifyvm', :id, '--memory', "#{data['vm']['memory']}"]
